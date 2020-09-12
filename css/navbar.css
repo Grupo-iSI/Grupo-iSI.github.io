@@ -8,12 +8,12 @@ body {
 
 .jumbotron-iSI {
     background: #572364;
-    color: #FDFD96
+    color: #FDFD96;
 }
 
 .btn-secondary-iSI {
-    outline: #572364;
-    color: #FDFD96;
     outline: #FDFD96;
+    color: #FDFD96;
     outline-color: #FDFD96;
+    border-block-color: #FDFD96;
 }

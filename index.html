@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title> iSI </title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+
 
     <style>
         .bd-placeholder-img {
@@ -25,63 +25,38 @@
         }
     </style>
 
-    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
 
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
-            <a class="navbar-brand" href="#">iSI</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-iSI" aria-controls="nav-iSI" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="nav-iSI">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"> Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://somosproyectoisi.blogspot.com/">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"> Contacto </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown09">
-                            <a class="dropdown-item" href="#">Categotia #1</a>
-                            <a class="dropdown-divider" href="#"></a>
-                            <a class="dropdown-item" href="#">Categotia #2</a>
-                            <a class="dropdown-item" href="#">Categotia #3</a>
-                            <a class="dropdown-item" href="#">Categotia #4</a>
-                        </div>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-md-0">
-                    <input class="form-control" type="text" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h3 class="masthead-brand">iSI</h3>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link active" href="main.html">Inicio</a>
+                    <a class="nav-link" href="https://somosproyectoisi.blogspot.com">Blog</a>
+                    <a class="nav-link" href="#">Contacto</a>
+                    <div class="dropdown-menu">
+                        <a class="nav-link dropdown-toggle" href="#"></a>
+                    </div>
+                </nav>
             </div>
-        </nav>
-    </header>
+        </header>
 
-    <!--jumbotron-->
-    <section class="jumbotron jumbotron-iSI">
-        <div class="container">
-            <h1 class="display-3"> Proyecto iSI </h1>
-            <p>Proyecyo iSI nace para transformar la utopía del Ecosistema Digital Cubano en una realidad. </p>
-            <p><a class="btn btn-secondary-iSI" href="#" role="button">Más &raquo;</a></p>
-        </div>
-    </section>
+        <main role="main " class="inner cover ">
+            <h1 class="cover-heading ">Proyecto iSI</h1>
+            <p class="lead ">Protecto iSI nace para trnasformar la utopía del Ecosistema Digital Cubano en realidad.</p>
+            <p class="lead ">
+                <a href="main.html " class="btn btn-lg btn-secondary ">A tu alcance &raquo;</a>
+            </p>
+        </main>
 
-    <section class="main container"></section>
-
-    <footer></footer>
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+        <footer class="mastfoot mt-auto ">
+            <div class="inner ">
+                <p>Trabajamos para verte pronto.</p>
+            </div>
+        </footer>
+    </div>
 </body>
-
-</html>
