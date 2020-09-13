@@ -1,19 +1,14 @@
-body {
-    padding-bottom: 0%;
-}
-
-.navbar {
-    margin-bottom: 0%;
-}
-
-.jumbotron-iSI {
-    background: #572364;
-    color: #FDFD96;
-}
-
-.btn-secondary-iSI {
-    outline: #FDFD96;
-    color: #FDFD96;
-    outline-color: #FDFD96;
-    border-block-color: #FDFD96;
-}
+    body {
+        padding-bottom: 20px;
+    }
+    
+    .navbar {
+        margin-bottom: px;
+        border-bottom: 0vmax;
+    }
+    
+    .jumbotron-iSI {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-bottom: 0;
+    }
